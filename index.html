@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- link to stylesheet (always require after Bootstrap) -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- link to javascript file -->
-
     <title>Tic Tac Toe</title>
   </head>
   <body>
@@ -32,24 +32,26 @@
           <!-- you can put rows inside of columns! -->
           <!-- our board has 3 rows, each with 3 columns inside -->
           <div class="row">
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
+            <div id = "top-left" class="col-xs-4 box"></div>
+            <div id = "top-middle" class="col-xs-4 box"></div>
+            <div id = "top-right" class="col-xs-4 box"></div>
           </div>
 
           <div class="row">
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
+            <div id = "middle-left" class="col-xs-4 box"></div>
+            <div id = "middle-middle" class="col-xs-4 box"></div>
+            <div id = "middle-right" class="col-xs-4 box"></div>
           </div>
 
           <div class="row">
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
-            <div class="col-xs-4 box"></div>
+            <div id = "bottom-left" class="col-xs-4 box"></div>
+            <div id = "bottomo-middle" class="col-xs-4 box"></div>
+            <div id = "bottom-right" class="col-xs-4 box"></div>
           </div>
         </div>
       </div>
     </div>
+    <script language="javascript" type="text/javascript" src="ticTacToe.js"></script>
+
   </body>
 </html>
